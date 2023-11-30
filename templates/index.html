@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <h1>Flask App</h1>
+    
+    <form method="post" action="/">
+        <label for="seed">Seed:</label>
+        <input type="text" name="seed" required>
+        
+        <label for="round_value">Round Value:</label>
+        <input type="number" name="round_value" step="0.01" required>
+        
+        <label for="round_number">Round Number:</label>
+        <input type="number" name="round_number" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
